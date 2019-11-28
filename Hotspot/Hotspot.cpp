@@ -6,7 +6,7 @@ Hotspot::Hotspot(QWidget *parent)
 	: QMainWindow(parent)
 {
 	ui.setupUi(this);
-	timer = new QTimer(this);
+	//timer = new QTimer(this);
 	ui.lineEdit_x->setText(tr("100"));
 	ui.lineEdit_y->setText(tr("100"));
 	ui.lineEdit_width->setText(tr("100"));

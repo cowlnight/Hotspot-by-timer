@@ -16,7 +16,7 @@ public:
 	Hotspot(QWidget *parent = Q_NULLPTR);
 	MessageWindow *m_mainwindow;
 
-	QTimer *timer;
+	//QTimer *timer;
 	int TimerID;
 	double x = 0, y = 0;
 	int left_up_x = 0, left_up_y = 0, right_up = 0, left_down = 0;
